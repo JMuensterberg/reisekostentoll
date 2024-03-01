@@ -29,6 +29,9 @@
             </choice>
         </element>
         <element label="Purpose of travel" max_length="40" name="u_reisegrund" type="string"/>
+        <element choice="1" label="Reisekostenart" max_length="40" name="u_reisekostenart" type="choice">
+            <choice/>
+        </element>
         <element choice="1" label="Destination" max_length="40" name="u_reiseziel" type="choice">
             <choice/>
         </element>
